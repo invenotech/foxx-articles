@@ -1,0 +1,33 @@
+{
+  "name": "articles",
+  "version": "0.4.5",
+  "license": "MIT",
+  "description": "Articles Content Management System",
+  "keywords": ["publish", "CMS", "content", "articles"],
+  "author": "David L Dyess II",
+  "contributors": ["David Dyess II <david.dyess@gmail.com>"],
+  "main": "index.js",
+  "scripts": {
+    "setup": "scripts/setup.js"
+  },
+  "dependencies": {
+    "sessions": {
+      "name": "@invenotech/sessions",
+      "version": "^1.0.0",
+      "description": "Sessions Management"
+    },
+    "migrations": {
+      "name": "@invenotech/migrations",
+      "version": "^1.0.0",
+      "description": "Migrations Management"
+    },
+    "permissions": {
+      "name": "@invenotech/permissions",
+      "version": "^1.0.0",
+      "description": "Role Management"
+    }
+  },
+  "engines": {
+    "arangodb": "^3.0.0"
+  }
+}
